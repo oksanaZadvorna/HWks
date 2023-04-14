@@ -10,9 +10,11 @@ public class HWarrays5 {
         }
         System.out.println("________________________");
 
-        for (String animal : animals) {
-            System.out.println(animals);
-
+        String [] animal = {"Dog", "Cat", "Rat", "Bat", "Ox"};
+        for (String s : animal) {
+            System.out.println(animal);
         }
+
+
     }
 }
